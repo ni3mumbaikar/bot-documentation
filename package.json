@@ -2,7 +2,7 @@
   "name": "bot-documentation",
   "version": "1.0.0",
   "description": "This is the whatsapp bot documentation for Whatsapp bot live on +91 8692933741 ",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "test",
     "start": "node server"
@@ -31,7 +31,9 @@
     "@babel/preset-react": "^7.14.5",
     "babel-loader": "^8.2.2",
     "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
     "style-loader": "^3.0.0",
+    "url-loader": "^4.1.1",
     "webpack": "^5.42.0",
     "webpack-cli": "^4.7.2"
   }

@@ -1,0 +1,11 @@
+*{
+    margin: 0px !important ;
+}
+
+.row{
+    align-items: center;
+  }
+
+.container{
+    padding: 0px !important;
+}
