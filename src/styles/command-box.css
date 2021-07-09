@@ -1,0 +1,13 @@
+.command {
+  font-weight: 700;
+}
+
+.cmdbox {
+  display: flex;
+  justify-content: center;
+}
+
+.desc {
+  font-weight: 500;
+  font-size: 15px;
+}

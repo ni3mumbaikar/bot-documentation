@@ -7,7 +7,7 @@ import css from "../styles/header.css";
 export default function Header() {
   return (
     <div className="w-100 justify-content-center">
-      <Row>
+      <Row className="bot-row">
         <Col className="intro-text">
           Welcome To Ni3's Bot <br /> <a href="#">click here </a> to check
           WhatsApp bot status
@@ -18,7 +18,7 @@ export default function Header() {
       </Row>
 
       <div className="searchbar justify-content-center">
-        <div className="wrapper shadow">
+        <div className="wrapper shadow justify-content-center">
           <input
             type="text"
             name=""
@@ -26,7 +26,7 @@ export default function Header() {
             placeholder="Search from the list of available commands"
           />
           {/* <Search className="search-icon" /> */}
-          <Search className="searc-icon" />
+          <Search className="search-icon" />
         </div>
       </div>
     </div>
