@@ -1,0 +1,11 @@
+.social {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.social > img {
+  height: 35x;
+  width: 35px;
+  margin-right: 18px;
+}

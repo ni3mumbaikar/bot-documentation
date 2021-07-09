@@ -24,12 +24,13 @@ const config = {
         test: /\.css$/i,
         exclude: /node_modules/,
         use: ["style-loader", "css-loader"],
-      },{
-        test: /\.(jpg|png)$/,
+      },
+      {
+        test: /\.(jpg|png|svg)$/,
         use: {
-          loader: 'url-loader',
+          loader: "url-loader",
         },
-      }
+      },
     ],
   },
 
