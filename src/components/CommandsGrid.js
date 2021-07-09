@@ -4,38 +4,26 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import CommandBox from "./CommandBox";
+import { commands } from "../assets/commands.js";
 
 function CommandsGrid() {
   return (
     <div className="grid-box w-100 py-1">
       <Container className="w-100">
         <Row xs={1} s={2} md={2} lg={3}>
-          <Col>
-            <CommandBox
-              className=""
-              command="/help"
-              desc="This command will return all the available whatsapp commands to you"
-              emoji="🦄"
-            />
-          </Col>
-          <Col>
-            <CommandBox
-              className=""
-              command="/help"
-              desc="This command will return all the available whatsapp commands to you"
-              emoji="🦄"
-            />
-          </Col>
-          <Col>
-            <CommandBox
-              className=""
-              command="/help"
-              desc="This command will return all the available whatsapp commands to you"
-              emoji="🦄"
-            />
-          </Col>
+          {commands.map((cmd, key) => {
+            return (
+              <Col key={key}>
+                <CommandBox
+                  command={cmd.command}
+                  desc={cmd.desc}
+                  emoji={cmd.emoji}
+                />
+              </Col>
+            );
+          })}
         </Row>
-        <Row xs={1} s={2} md={2} lg={3}>
+        {/* <Row xs={1} s={2} md={2} lg={3}>
           <Col>
             <CommandBox
               className=""
@@ -60,33 +48,7 @@ function CommandsGrid() {
               emoji="🦄"
             />
           </Col>
-        </Row>
-        <Row xs={1} s={2} md={2} lg={3}>
-          <Col>
-            <CommandBox
-              className=""
-              command="/help"
-              desc="This command will return all the available whatsapp commands to you"
-              emoji="🦄"
-            />
-          </Col>
-          <Col>
-            <CommandBox
-              className=""
-              command="/help"
-              desc="This command will return all the available whatsapp commands to you"
-              emoji="🦄"
-            />
-          </Col>
-          <Col>
-            <CommandBox
-              className=""
-              command="/help"
-              desc="This command will return all the available whatsapp commands to you"
-              emoji="🦄"
-            />
-          </Col>
-        </Row>
+        </Row> */}
       </Container>
     </div>
   );
