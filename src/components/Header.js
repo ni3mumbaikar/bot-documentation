@@ -17,7 +17,7 @@ export default function Header() {
         </Col>
       </Row>
 
-      <div className="searchbar justify-content-center">
+      <div className="searchbar px-5 justify-content-center">
         <div className="wrapper shadow justify-content-center">
           <input
             type="text"

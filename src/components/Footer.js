@@ -6,8 +6,13 @@ import Github from "../assets/github.png";
 function Footer() {
   return (
     <div className="social w-100 py-4">
-      <img src={Github} alt="github_logo" />
-      <img src={LinkedIn} alt="linked_logo" />
+      <a href="https://github.com/ni3mumbaikar" target="_blank">
+        <img src={Github} alt="github_logo" />
+      </a>
+
+      <a href="https://linkedin.com/in/ni3mumbaikar" target="_blank">
+        <img src={LinkedIn} alt="linked_logo" />
+      </a>
     </div>
   );
 }

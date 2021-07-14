@@ -5,6 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "test",
+    "devbuild": "webpack --mode development",
+    "prodbuild": "webpack --mode production",
     "start": "node server"
   },
   "repository": {

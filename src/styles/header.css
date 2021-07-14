@@ -29,7 +29,8 @@
   border: none;
   background-color: #fff;
   border-radius: 80px;
-  padding: 15px 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   padding-right: 0px !important;
   max-width: 70rem;
 }

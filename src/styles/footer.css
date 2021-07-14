@@ -4,7 +4,7 @@
   margin-top: 24px;
 }
 
-.social > img {
+.social > a > img {
   height: 35x;
   width: 35px;
   margin-right: 18px;

@@ -6,12 +6,17 @@ export const commands = [
   },
   {
     command: "/sticker",
-    desc: "Return sticker for any image that you send with /sticker as caption",
+    desc: "Returns sticker for any image that you send with /sticker as caption",
     emoji: "🌅",
   },
   {
     command: "/caps",
-    desc: "Returns every string in CAPITAL LETTERS after /caps",
+    desc: "Returns complete string in capital letters after /caps",
     emoji: "🔼",
+  },
+  {
+    command: "/about",
+    desc: "To Know more about me",
+    emoji: "💻",
   },
 ];

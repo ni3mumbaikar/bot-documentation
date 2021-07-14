@@ -8,7 +8,7 @@ import { commands } from "../assets/commands.js";
 
 function CommandsGrid() {
   return (
-    <div className="grid-box w-100 py-1">
+    <div className="grid-box w-100 py-2">
       <Container className="w-100">
         <Row xs={1} s={2} md={2} lg={3}>
           {commands.map((cmd, key) => {
