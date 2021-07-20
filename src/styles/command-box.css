@@ -8,7 +8,6 @@
 }
 
 .card {
-  background-color: #e7e7e7;
   height: 250px;
 }
 
@@ -20,6 +19,7 @@
   padding-bottom: 1.25em;
   text-align: left;
   padding-left: 1.25rem;
+  background-color: white;
 }
 
 .desc {

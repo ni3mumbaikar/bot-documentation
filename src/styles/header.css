@@ -1,3 +1,25 @@
+@media (max-width: 960px) {
+  .wrapper {
+    width: 90% !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .bot-row {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+  .wrapper {
+    width: 100% !important;
+    margin-right: 18px;
+    margin-left: 18px;
+  }
+
+  .searchbar > div > input {
+    font-size: 15px;
+  }
+}
+
 .bot-row {
   align-items: center;
   padding-top: 20px;
@@ -27,16 +49,30 @@
   width: 90%;
   outline: none;
   border: none;
-  background-color: #fff;
   border-radius: 80px;
   padding-top: 15px;
   padding-bottom: 15px;
-  padding-right: 0px !important;
-  max-width: 70rem;
+}
+
+input::-webkit-input-placeholder {
+  font-size: 5px;
+  line-height: 1;
 }
 
 .wrapper {
-  width: 55%;
+  width: 60%;
+  border-radius: 80px;
+  display: flex;
+  align-items: center;
+  border: solid;
+  max-height: max-content;
+  border-width: 0.1px;
+  margin-bottom: 18px;
+  margin-top: 18px;
+  color: grey;
+}
+
+.wrapper {
   border-radius: 80px;
   background-color: #fff;
   display: flex;
