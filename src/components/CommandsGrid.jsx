@@ -23,32 +23,6 @@ function CommandsGrid() {
             );
           })}
         </Row>
-        {/* <Row xs={1} s={2} md={2} lg={3}>
-          <Col>
-            <CommandBox
-              className=""
-              command="/help"
-              desc="This command will return all the available whatsapp commands to you"
-              emoji="🦄"
-            />
-          </Col>
-          <Col>
-            <CommandBox
-              className=""
-              command="/help"
-              desc="This command will return all the available whatsapp commands to you"
-              emoji="🦄"
-            />
-          </Col>
-          <Col>
-            <CommandBox
-              className=""
-              command="/help"
-              desc="This command will return all the available whatsapp commands to you"
-              emoji="🦄"
-            />
-          </Col>
-        </Row> */}
       </Container>
     </div>
   );
