@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Logo from "../assets/Bot.png";
 import { Search } from "@material-ui/icons";
 import css from "../styles/header.css";
-import botstate from "../../sh_scripts/bot_status";
+// import botstate from "../../sh_scripts/bot_status";
 
 export default function Header() {
   return (

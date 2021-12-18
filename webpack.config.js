@@ -31,7 +31,17 @@ const config = {
           loader: "url-loader",
         },
       },
+      {
+        test: /\.jsx?$/,
+        exclude: /node_modules/,
+        use: {
+          loader: "babel-loader?cacheDirectory=true",
+        },
+      },
     ],
+  },
+  resolve: {
+    extensions: ["", ".js", ".jsx"],
   },
 
   devtool: "source-map",
